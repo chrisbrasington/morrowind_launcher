@@ -1,4 +1,4 @@
-# Morrowind Launcher Script
+# OpenMW + SteamMorrowind Launcher Script
 
 This script allows you to play The Elder Scrolls III: Morrowind using OpenMW while still tracking your playtime on Steam.
 

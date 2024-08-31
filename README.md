@@ -23,6 +23,3 @@ Since OpenMW is a "non-Steam" game, it won't track your playtime or show your st
 - OpenMW installed
 - Python 3.x
 
----
-
-This version explains the functionality and purpose succinctly while providing necessary instructions for use.

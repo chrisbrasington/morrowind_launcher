@@ -4,7 +4,7 @@ This script allows you to play The Elder Scrolls III: Morrowind using OpenMW whi
 
 ## Purpose
 
-Since OpenMW is a "non-Steam" game, it won't track your playtime or show your status as playing Morrowind on Steam. By launching the official Morrowind game via Steam and keeping it on the launcher screen, Steam will track your playtime and show your status as playing "The Elder Scrolls III: Morrowind." The script automatically closes the Steam game when you exit OpenMW, saving you the hassle of manually closing both.
+Since OpenMW is a "non-Steam" game, it won't track your playtime or show your status as playing Morrowind on Steam. By launching both openMW and the official Morrowind game via Steam and keeping it on the launcher screen, Steam will track your playtime and show your status as playing "The Elder Scrolls III: Morrowind." The script automatically closes the Steam game when you exit OpenMW, saving you the hassle of manually closing both.
 
 ## Usage
 

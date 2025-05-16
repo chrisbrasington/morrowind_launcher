@@ -6,16 +6,16 @@ import os
 import signal
 
 def run_steam_game():
-    """Launches the RollerCoaster Tycoon game via Steam."""
+    """Launches the RollerCoaster Tycoon 2 game via Steam."""
     try:
-        subprocess.run(["xdg-open", "steam://rungameid/285310"])
+        subprocess.run(["xdg-open", "steam://rungameid/285330"])
     except subprocess.SubprocessError as e:
         print(f"Failed to launch Steam game: {e}")
 
 def run_openrct2():
     """Launches OpenRCT2 and waits for it to exit."""
     try:
-        process = subprocess.Popen(["openrct2"])
+        process = subprocess.Popen(["/usr/bin/openrtc2"])
         process.wait()  # Wait until OpenRCT2 process ends
     except subprocess.SubprocessError as e:
         print(f"Failed to launch OpenRCT2: {e}")
@@ -27,7 +27,7 @@ def kill_steam_game():
             # Use pgrep to find the PID of the process by name
             try:
                 pids = subprocess.check_output(
-                    ["pgrep", "-f", "RCT.EXE"]
+                    ["pgrep", "-f", "RCT2.EXE"]
                 ).strip().split()
 
                 if pids:
